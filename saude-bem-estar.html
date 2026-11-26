@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Saúde & Bem-Estar — informação, alimentação saudável e orientação em saúde.">
+<title>Saúde & Bem-Estar | Cuidado que começa com informação</title>
+<style>
+:root{--green:#176b55;--green2:#0e4d3d;--mint:#eaf4ef;--ink:#1d302b;--muted:#65756f;--cream:#fbfcfa;--line:#e1eae5}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;color:var(--ink);background:var(--cream);line-height:1.55}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 40px));margin:auto}
+header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:5}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:750;letter-spacing:-.4px}.logo{width:39px;height:39px;border-radius:12px;background:var(--mint);display:grid;place-items:center;color:var(--green);font-size:23px}
+nav{display:flex;gap:25px;color:#50635b;font-size:14px}nav a:hover{color:var(--green)}
+.btn{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:10px;padding:13px 19px;background:var(--green);color:#fff;font-weight:650;cursor:pointer}.btn:hover{background:var(--green2)}.btn.secondary{background:#fff;color:var(--green);border:1px solid #cbded4}
+.hero{padding:76px 0 66px;background:linear-gradient(110deg,#f0f7f2 0%,#fbfcfa 65%);overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:50px}
+.eyebrow{color:var(--green);font-size:12px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase}
+h1{font-size:clamp(38px,5.2vw,62px);line-height:1.06;letter-spacing:-2.5px;margin:15px 0 20px;max-width:650px}
+.hero p{font-size:18px;color:var(--muted);max-width:570px;margin:0 0 27px}
+.hero-art{min-height:330px;border-radius:28px;background:linear-gradient(145deg,#dceee4,#a9d0bc);position:relative;display:grid;place-items:center;overflow:hidden}
+.circle{width:235px;height:235px;border-radius:50%;background:#f7fbf7;display:grid;place-items:center;font-size:104px;box-shadow:0 24px 70px #235c4420}
+.float{position:absolute;background:#fff;padding:13px 17px;border-radius:13px;box-shadow:0 12px 35px #174c3520;font-size:13px;font-weight:700}.f1{left:22px;top:34px}.f2{right:18px;bottom:35px}
+section{padding:68px 0}.section-head{max-width:650px;margin-bottom:30px}.section-head h2{font-size:34px;letter-spacing:-1px;margin:8px 0}.section-head p{color:var(--muted);margin:0}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:25px;box-shadow:0 8px 28px #193d2a08;display:flex;flex-direction:column;min-height:290px}
+.card-icon{width:52px;height:52px;border-radius:15px;background:var(--mint);display:grid;place-items:center;font-size:26px;margin-bottom:20px}
+.card h3{font-size:20px;margin:0 0 9px}.card p{color:var(--muted);font-size:14px;margin:0 0 20px}.card a{margin-top:auto;color:var(--green);font-weight:700;font-size:14px}
+.notice{background:#f2f7f4;border:1px solid #dce9e1;border-radius:16px;padding:22px 24px;color:#40564c;font-size:14px}
+.notice strong{color:var(--green2)}
+.pix{background:var(--green2);color:#fff;border-radius:22px;padding:34px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.pix p{color:#d8e9e1;margin:8px 0 0}.pix .btn{background:#fff;color:var(--green2);white-space:nowrap}
+footer{background:#102f26;color:#e9f3ed;padding:35px 0;font-size:13px}footer p{color:#bed0c6;max-width:760px}
+small{color:var(--muted)}.mobile-menu{display:none}
+@media(max-width:760px){nav{display:none}.hero{padding:52px 0}.hero-grid{grid-template-columns:1fr;gap:32px}.hero-art{min-height:260px}.circle{width:180px;height:180px;font-size:80px}.cards{grid-template-columns:1fr}.pix{align-items:flex-start;flex-direction:column}h1{letter-spacing:-1.5px}.section-head h2{font-size:29px}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#"><span class="logo">✚</span><span>Saúde & Bem-Estar</span></a>
+  <nav><a href="#categorias">Categorias</a><a href="#como-funciona">Como funciona</a><a href="#pagamento">Pagamento</a></nav>
+  <a class="btn" href="#categorias">Conhecer serviços</a>
+</div></header>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+ <div><div class="eyebrow">Informação • cuidado • qualidade de vida</div>
+ <h1>Seu bem-estar começa com escolhas conscientes.</h1>
+ <p>Conteúdos de alimentação saudável, materiais digitais e caminhos seguros para encontrar orientação profissional em saúde.</p>
+ <a class="btn" href="#categorias">Explorar categorias</a></div>
+ <div class="hero-art" aria-label="Ilustração de saúde e bem-estar"><div class="circle">🌿</div><div class="float f1">Cuidado responsável</div><div class="float f2">Hábitos mais saudáveis</div></div>
+</div></section>
+<section id="categorias"><div class="wrap">
+ <div class="section-head"><div class="eyebrow">Nossas categorias</div><h2>Encontre o que combina com seu momento</h2><p>Explore nossos conteúdos e serviços. Informações claras para apoiar decisões mais conscientes.</p></div>
+ <div class="cards">
+  <article class="card"><div class="card-icon">🩺</div><h3>Atendimento e orientação médica</h3><p>Informações sobre consultas e atendimento com profissionais habilitados. Prescrições, quando indicadas, dependem de avaliação clínica individual.</p><a href="#aviso">Saiba como funciona →</a></article>
+  <article class="card"><div class="card-icon">🥗</div><h3>Emagrecimento e alimentação</h3><p>Ideias de refeições, cardápios educativos e conteúdos para construir hábitos alimentares equilibrados, sem promessas milagrosas.</p><a href="#conteudos">Ver conteúdos →</a></article>
+  <article class="card"><div class="card-icon">📚</div><h3>Loja de produtos digitais</h3><p>E-books, guias de receitas e materiais educativos para organizar sua rotina e aprender mais sobre alimentação.</p><a href="#pagamento">Como comprar →</a></article>
+ </div>
+</div></section>
+<section id="como-funciona"><div class="wrap">
+ <div class="section-head"><div class="eyebrow">Transparência em primeiro lugar</div><h2>Como funciona</h2><p>Uma experiência simples, com informação clara em cada etapa.</p></div>
+ <div class="cards">
+  <article class="card"><div class="card-icon">01</div><h3>Escolha uma categoria</h3><p>Navegue pelos conteúdos digitais ou consulte as informações sobre atendimento profissional.</p></article>
+  <article class="card"><div class="card-icon">02</div><h3>Confira os detalhes</h3><p>Antes de contratar ou comprar, confira descrição, responsável, preço e condições do serviço.</p></article>
+  <article class="card"><div class="card-icon">03</div><h3>Pagamento via Pix</h3><p>Quando a loja estiver configurada, você poderá pagar por Pix em um checkout seguro e receber a confirmação.</p></article>
+ </div>
+</div></section>
+<section id="conteudos"><div class="wrap">
+ <div class="notice"><strong>Conteúdo educativo:</strong> materiais sobre alimentação e bem-estar não substituem consulta, diagnóstico ou tratamento. Resultados variam de pessoa para pessoa.</div>
+</div></section>
+<section id="pagamento"><div class="wrap">
+ <div class="pix"><div><div class="eyebrow" style="color:#b9dfcb">Pagamento</div><h2 style="margin:7px 0 0;font-size:29px">Pagamento somente via Pix</h2><p>O Pix será habilitado após a configuração de uma conta comercial ou provedor de pagamento. Não envie valores para chaves divulgadas informalmente.</p></div><a class="btn" href="#aviso">Ver informações</a></div>
+</div></section>
+<section id="aviso"><div class="wrap">
+ <div class="section-head"><div class="eyebrow">Compromisso com a segurança</div><h2>Saúde exige responsabilidade</h2><p>Este site não vende receitas médicas, atestados ou prescrições prontas. Medicamentos sujeitos a prescrição só podem ser indicados por profissional habilitado, após avaliação adequada, e sua dispensação deve seguir as regras sanitárias aplicáveis.</p></div>
+ <div class="notice">Este é um modelo inicial de apresentação. Antes de receber pedidos ou pagamentos, inclua dados reais da empresa, canais de atendimento, política de privacidade, termos de uso, preços e informações dos responsáveis técnicos. A área médica exige profissionais e estabelecimentos devidamente habilitados e regularizados.</div>
+</div></section>
+</main>
+<footer><div class="wrap"><div class="brand"><span class="logo">✚</span><span>Saúde & Bem-Estar</span></div><p>Informação confiável e cuidado responsável. Este site tem finalidade informativa e não substitui orientação individual de profissionais de saúde.</p><small>© 2026 Saúde & Bem-Estar. Todos os direitos reservados.</small></div></footer>
+</body></html>
